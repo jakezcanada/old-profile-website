@@ -1,1 +1,24 @@
-<router-outlet></router-outlet>
+<div>
+  <mat-toolbar color="primary">
+    <span class="spacer"></span>
+    <h1 class="app-name">Jake Z</h1>
+    <span class="spacer"></span>
+    <button mat-flat-button color="primary" (click)="scroll(home)">Home</button>
+    <button mat-flat-button color="primary" (click)="scroll(about)">About</button>
+    <button mat-flat-button color="primary" (click)="scroll(contact)">Contact</button>
+    <span class="spacer"></span>
+  </mat-toolbar>
+</div>
+<div #home>
+  <app-home></app-home>
+</div>
+
+<div #about>
+  <app-about></app-about>
+</div>
+
+<div #contact>
+  <app-contact></app-contact>
+</div>
+
+

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'profile-website';
+
+  constructor() {}
+
+  scroll(el: HTMLElement) {
+    el.scrollIntoView({behavior: "smooth"});
+  }
 }
