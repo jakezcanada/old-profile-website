@@ -10,7 +10,7 @@ export class AppComponent implements OnInit{
   title = 'profile-website';
 
   ngOnInit(): void {
-    AOS.init();
+    //AOS.init({ startEvent: 'load' });
   }
 
   constructor() {}
