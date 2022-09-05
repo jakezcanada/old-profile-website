@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 3.5vw;
+  padding: 2vh;
+}
+
+h2 {
+  font-size: 1.5vw;
+  padding: 2vh;
+}
+
+.flex-item {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+}
+
+img {
+  width: 25vw;
+  height: 25vw;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}

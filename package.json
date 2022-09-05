@@ -23,6 +23,7 @@
     "@angular/router": "^14.1.0",
     "aos": "^3.0.0-beta.6",
     "rxjs": "~7.5.0",
+    "t-writer.js": "^1.0.4",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
