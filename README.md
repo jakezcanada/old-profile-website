@@ -6,6 +6,7 @@ This project uses:
 - [Angular Material](https://material.angular.io/)
 - [AOS](https://github.com/michalsnik/aos)
 - [t-writer.js](https://github.com/ChrisCavs/t-writer.js)
+- [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages)
 
 ## Development server
 
