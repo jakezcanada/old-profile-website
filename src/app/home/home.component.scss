@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-direction: row;
+  background-color: lightgray;
 }
 
 h1 {
@@ -26,6 +27,11 @@ h2 {
 }
 
 img {
+  object-fit: cover;
+}
+
+.img-container {
+  display: flex;
   width: 25vw;
   height: 25vw;
   object-fit: cover;
@@ -33,4 +39,11 @@ img {
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   cursor: pointer;
+  transition: transform .2s;
+  overflow: hidden;
+}
+
+.img-container:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
 }
