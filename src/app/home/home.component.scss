@@ -18,6 +18,8 @@ h2 {
   width: 50%;
   margin: auto;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .title {
@@ -27,23 +29,28 @@ h2 {
 }
 
 img {
-  object-fit: cover;
+  transition: transform .2s;
 }
 
 .img-container {
   display: flex;
+  justify-content: center;
   width: 25vw;
   height: 25vw;
-  object-fit: cover;
   margin: auto;
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
   transition: transform .2s;
   overflow: hidden;
 }
 
-.img-container:hover {
+.profile-picture {
+  transition: transform .2s;
+}
+
+.profile-picture:hover {
+  width: 25vw;
+  border-radius: 50%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
   transform: scale(1.1);
 }
