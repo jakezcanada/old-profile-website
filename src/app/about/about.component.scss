@@ -2,3 +2,23 @@
   background: #fff;
   color: #0ff;
 }
+
+mat-icon {
+  //vertical-align: middle;
+  //transform: scale(1.5);
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 36px;
+}
+
+.title-icon {
+  margin: auto;
+  transform: scale(1.5);
+}
+
+.title-text {
+  margin: auto;
+}

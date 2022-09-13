@@ -3,9 +3,9 @@
     <span class="spacer"></span>
     <h1 class="app-name">Jake Z</h1>
     <span class="spacer"></span>
-    <button mat-flat-button color="primary" (click)="scroll(home)">Home</button>
-    <button mat-flat-button color="primary" (click)="scroll(about)">About</button>
-    <button mat-flat-button color="primary" (click)="scroll(contact)">Contact</button>
+    <button mat-flat-button color="primary" (click)="scroll('home')">Home</button>
+    <button mat-flat-button color="primary" (click)="scroll('about')">About</button>
+    <button mat-flat-button color="primary" (click)="scroll('contact')">Contact</button>
     <span class="spacer"></span>
   </mat-toolbar>
 </div>
@@ -19,6 +19,10 @@
 
 <div #contact>
   <app-contact></app-contact>
+</div>
+
+<div #footer>
+  <app-footer (scrollClick)="scroll($event)"></app-footer>
 </div>
 
 

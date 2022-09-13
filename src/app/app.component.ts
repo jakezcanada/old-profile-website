@@ -14,7 +14,8 @@ export class AppComponent implements OnInit{
 
   constructor() {}
 
-  scroll(el: HTMLElement) {
+  scroll(el: any) {
+    console.log(el);
     el.scrollIntoView({behavior: "smooth"});
   }
 }
