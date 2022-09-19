@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {ViewportScroller} from "@angular/common";
 
 @Component({
   selector: 'app-root',
@@ -12,10 +13,9 @@ export class AppComponent implements OnInit{
     //AOS.init({ startEvent: 'load' });
   }
 
-  constructor() {}
+  constructor(private viewportScroller: ViewportScroller) {}
 
-  scroll(el: any) {
-    console.log(el);
+  scroll(el: HTMLElement) {
     el.scrollIntoView({behavior: "smooth"});
   }
 }
