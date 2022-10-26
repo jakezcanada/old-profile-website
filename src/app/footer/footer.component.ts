@@ -7,14 +7,9 @@ import { Component, OnInit, EventEmitter,  Output } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  @Output() scrollClick = new EventEmitter();
-
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  scroll(event: any, el: String){
-    this.scrollClick.emit(el);
-  }
 }
