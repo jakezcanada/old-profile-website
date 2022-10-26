@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.mat-toolbar.mat-primary {
+  background: #ffffff;
+  color: #000000;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 36px;
+}
+
+.title-icon {
+  margin: auto;
+  transform: scale(1.5);
+}
+
+.title-text {
+  margin: auto;
+}
+
+.flex-item {
+  padding: 2vh;
+  margin: auto;
+  flex: 1 1 auto;
+  flex-basis: 50%;
+}
