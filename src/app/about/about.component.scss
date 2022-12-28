@@ -1,6 +1,8 @@
 .container {
   display: flex;
   flex-direction: row;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .mat-toolbar.mat-primary {
@@ -24,7 +26,7 @@
 }
 
 .flex-item {
-  padding: 2vh;
+  padding: 5vh;
   margin: auto;
   flex: 1 1 auto;
   flex-basis: 50%;
