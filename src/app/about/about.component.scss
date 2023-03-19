@@ -31,3 +31,15 @@
   flex: 1 1 auto;
   flex-basis: 50%;
 }
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 25vw;
+  height: 25vw;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: transform .2s;
+  overflow: hidden;
+}
